@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Roboto:wght@100&display=swap"
+        rel="stylesheet">
+    <link ref="text/css" rel="stylesheet" href="style.css" />
+    <title>Document</title>
+    <!--
+        Holds metadata / information we don't see.
+         - links, viewport info, document title, etc. 
+    -->
+    <!-- 3 ways to us CSS with our doc:
+        1.Embed the CSS within a <style> tag.
+        2. Inline styling within another element.
+        3. Link a stylesheet to our HTML document -->
+    <!-- <style>
+        body {
+            background-color: black;
+        }
+    </style> -->
+</head>
+<!-- <body style="background-color: green;"> -->
+
+<body>
+    <header>
+        <h1>Music Blog</h1>
+
+        <nav>
+            <ul>
+                <li><span>Home</span></li>
+                <li><a href="#">Get Started</a></li>
+                <li><a href="#">Photos</a></li>
+                <li><a href="#">Forum</a></li>
+            </ul>
+
+
+        </nav>
+    </header>
+
+    <section>
+        <h2>Welcome</h2>
+        <!--        Main specifies the main content. 
+            There can only be one! 
+            Cannot be a descendant (child) of:
+                -header, nav, article, aside, footer-->
+        <main>
+            <article>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae numquam maxime vel sit ut, velit deleniti quas in, aliquid eum suscipit doloremque fugit totam tenetur nesciunt, porro veniam. Ex, tenetur nihil aliquam deleniti natus hic obcaecati possimus vel inventore architecto error. Facilis incidunt a, eius repellendus reprehenderit nisi veritatis adipisci odit quas magni porro voluptatum dignissimos odio ea quibusdam corporis molestias hic qui culpa molestiae, eveniet et. Mollitia deleniti enim ex modi inventore corporis officia? Vel quisquam quae molestiae minus a iure facilis, veritatis iste dolores incidunt laboriosam provident quos perferendis praesentium eaque assumenda impedit quas consectetur dolor tempora ratione.
+                </p>
+
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam corporis, iste saepe odit velit ad officiis ipsam itaque odio eligendi recusandae esse id dolor, consectetur veniam? Cumque, porro illum. Dicta molestiae quia aliquam veritatis. Expedita laudantium, praesentium ullam possimus ipsum error natus harum consequatur ex sunt hic labore? Adipisci modi vitae neque, architecto odio doloremque eius? Obcaecati debitis modi quis, dolore quod eum minus quas quibusdam cupiditate velit natus odit corporis provident, reiciendis impedit! Quis, quas commodi, aliquid iste dolor deleniti laborum laboriosam amet esse vel nam consequatur, enim fuga dolore minima veritatis eveniet! Vero unde non suscipit et autem?
+                </p>
+
+            </article>
+
+            <aside>
+                <h2>Favorite Albums</h2>
+                <!-- (a>img)*4 -->
+                <a target="_blank" href="./assets/199a1849.jpg"><img src="./assets/199a1849.jpg" alt="AcidRap"></a>
+                <a target="_blank" href="./assets/61R58SHW+GL._AC_SS450_.jpg"><img
+                        src="./assets/61R58SHW+GL._AC_SS450_.jpg" alt="Swimming"></a>
+                <a target="_blank" href="./assets/tyler-the-creator-flower-boy-album-review (2).jpg"><img
+                        src="./assets/tyler-the-creator-flower-boy-album-review (2).jpg" alt="Flower Boy"></a>
+                <a target="_blank" href="./assets/ybn-cordae-the-lost-boy-stream.jpg"><img
+                        src="./assets/ybn-cordae-the-lost-boy-stream.jpg" alt="The Lost Boy"></a>
+            </aside>
+        </main>
+    </section>
+
+    <!-- Footers can contain: authorship info, copyright, contact info, a site map, relative links/ documents, back to top link -->\
+    <footer>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, in?, 2021 by Austin Flores</p>
+    </footer>
+</body>
+
+</html>
